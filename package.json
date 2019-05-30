@@ -37,6 +37,6 @@
     "standard": "^12.0.1"
   },
   "dependencies": {
-    "@pelevesque/substitute-chars": "0.0.2"
+    "@pelevesque/substitute-chars": "0.0.3"
   }
 }
