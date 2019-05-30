@@ -6,13 +6,18 @@
 
 Tool for working with a custom numeric code system.
 
-The numeric code is made up of digits from `1` to `9` inclusively. `0` and any other symbol can be included, but will be ignored when processing.
+The numeric code is made up of digits from `1` to `9` inclusively. `0` and any
+other symbol can be included, but will be ignored when processing.
 
 Ex: `091230/129830`
 
-This numeric code system can be used to denote positions of elements in a game using `0` for empty spaces.
+This numeric code system can be used to denote positions of elements in a game
+using `0` for empty spaces.
 
-For example, we could use this code `00210/00211/00210/00211/00200` to denote a the following go position on a 5 x 5 board. The numbers `1` and `2` could denote the black and white stone colors. We could then obtain a canonicalization or a randomization of the position using this module.
+For example, we could use this code `00210/00211/00210/00211/00200` to denote a
+the following go position on a 5 x 5 board. The numbers `1` and `2` could denote
+the black and white stone colors. We could then obtain a canonicalization or a
+randomization of the position using this module.
 
 0 0 2 1 0  
 0 0 2 1 1  
@@ -22,7 +27,7 @@ For example, we could use this code `00210/00211/00210/00211/00200` to denote a 
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/numeric-code](https://www.npmjs.com/package/@pelevesque/numeric-code)
+https://www.npmjs.com/package/@pelevesque/numeric-code
 
 ## Installation
 
