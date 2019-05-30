@@ -15,6 +15,7 @@
     "url": "git+https://github.com/pelevesque/numeric-code.git"
   },
   "keywords": [
+    "math",
     "numeric",
     "code",
     "string"
