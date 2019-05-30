@@ -1,6 +1,6 @@
 {
   "name": "@pelevesque/numeric-code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tool for working with a custom numeric code system.",
   "main": "index.js",
   "engines": {
