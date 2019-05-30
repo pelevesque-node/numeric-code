@@ -27,7 +27,7 @@ function getStringOfArrayElements (arr) {
   return str
 }
 
-describe('#numeric-code', () => {
+describe('#numericCode', () => {
   describe('#canonicalize()', () => {
     it('should work with a simple code', () => {
       const str = '54321'
