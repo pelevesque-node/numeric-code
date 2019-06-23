@@ -1,6 +1,6 @@
 'use strict'
 
-const substituteChars = require('@pelevesque/substitute-chars')
+const substituteSubstrings = require('@pelevesque/substitute-substrings')
 
 function makeDigitsInOrderOfAppearanceArray (str) {
   const digits = '123456789'
@@ -46,13 +46,13 @@ function makeRandomizedSubstitutionsArray (digits) {
 exports.canonicalize = str => {
   const digits = makeDigitsInOrderOfAppearanceArray(str)
   const substitutions = makeSubstitutionsArray(digits)
-  return substituteChars(str, substitutions)
+  return substituteSubstrings(str, substitutions)
 }
 
 exports.randomize = str => {
   const digits = makeDigitsInOrderOfAppearanceArray(str)
   const substitutions = makeRandomizedSubstitutionsArray(digits)
-  return substituteChars(str, substitutions)
+  return substituteSubstrings(str, substitutions)
 }
 
 module.exports = exports
